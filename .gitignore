@@ -43,6 +43,7 @@ typings/
 .npm
 
 # Optional eslint cache
+.eslint*
 .eslintcache
 
 # Optional REPL history
