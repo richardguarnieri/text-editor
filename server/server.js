@@ -13,4 +13,4 @@ app.get('/', (req, res) => {
 });
 
 console.log(__dirname)
-app.listen(port, () => console.log(`Now listening on port: ${port}`));
+app.listen(port, () => console.log(`Web Server listening on port: ${port}`));

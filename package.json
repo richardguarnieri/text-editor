@@ -9,14 +9,12 @@
     "build": "cd client && npm run build",
     "client": "cd client && npm run start",
     "server": "cd server && npm run server",
-    "postinstall": "(cd client && npm install); (cd server && npm install)",
-    "lint": "eslint ."
+    "postinstall": "(cd client && npm install); (cd server && npm install)"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "eslint": "^8.20.0"
+    "concurrently": "^5.2.0"
   }
 }
