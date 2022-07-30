@@ -7,7 +7,7 @@ const { InjectManifest } = require("workbox-webpack-plugin"); // https://develop
 const WebpackPwaManifest = require("webpack-pwa-manifest"); // https://www.npmjs.com/package/webpack-pwa-manifest
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: {
     main: path.resolve(__dirname, "src/js/index.js"),
     install: path.resolve(__dirname, "src/js/install.js"),
