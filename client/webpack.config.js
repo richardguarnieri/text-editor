@@ -70,8 +70,8 @@ module.exports = {
     new WebpackPwaManifest({
       fingerprints: true,
       inject: true,
-      name: "note-taker",
-      short_name: "note-taker",
+      name: "note-takerZ",
+      short_name: "Note-Taker",
       description: "Note Taker PWA",
       background_color: "#225ca3",
       theme_color: "#225ca3",
