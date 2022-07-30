@@ -95,7 +95,9 @@ Project Description: `A Text Editor PWA (Progressive Web Application)!`
 
 [![Application Image][application-image]][application-url]
 
-TBA
+Progressive Web Apps (PWAs) are web apps that use service workers, manifests, and other web-platform features in combination with progressive enhancement to give users an experience on par with native apps.
+
+This is a text editor app that runs in the browser. It's a single-page application that meets the PWA criteria and features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline and uses a package called idb, which is a lightweight wrapper around the IndexedDB API.
 
 The app is deployed on Heroku: [https://text-editor-jate-bc.herokuapp.com/][application-url].
 
@@ -131,7 +133,7 @@ Unless you are cloning the repo, nothing to install. Otherwise, you would need a
 
 <!-- How to Use -->
 ## How to Use
-TBA
+Similar experience to any text editor, but on the web - when you open the application, you will be routed to the text editor. Content will be saved through the use of the IndexedDB API as well as usage of localStorage. Data persists through offline sessions as well thanks to the usage of Service Workers.
 
 _For more examples, please refer to the [Documentation][documentation-url]._
 
