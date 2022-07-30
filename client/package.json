@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack serve",
-    "heroku-prebuild": "npm install --dev"
+    "start": "webpack serve"
   },
   "author": "",
   "license": "ISC",
