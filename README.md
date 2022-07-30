@@ -54,7 +54,7 @@ Project Description: `A Text Editor PWA (Progressive Web Application)!`
 
 <div align="center">
     <a href="https://github.com/richardguarnieri/text-editor">
-        <img src="./public/img/logo.png" alt="Logo" width="300" height="auto">
+        <img src="./img/logo.png" alt="Logo" width="300" height="auto">
     </a>
     <h1 align="center">Text Editor</h1>
     <div>
